@@ -1,0 +1,4 @@
+.vscode/*
+*.bat
+Makefile
+source/_build/*
