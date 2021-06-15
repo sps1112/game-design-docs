@@ -1,5 +1,5 @@
 .. Game-Design Docs documentation master file, created by
-   sphinx-quickstart on Tue Jun 15 15:22:42 2021.
+   sphinx-quickstart on Tue Jun 15 15:38:51 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
