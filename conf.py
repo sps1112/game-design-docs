@@ -6,6 +6,10 @@
 
 # -- Path setup --------------------------------------------------------------
 
+import sphinx_rtd_theme
+from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -14,15 +18,28 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+source_suffix = ['.rst', '.md']
 
-# -- Project information -----------------------------------------------------
+source_parsers = {
+    '.md': CommonMarkParser,
+}
 
-project = 'Game-Design Docs'
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        'enable_eval_rst': True,
+    }, True)
+    app.add_transform(AutoStructify)
+
+    # -- Project information -----------------------------------------------------
+
+
+project = 'Game Design Docs\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[-Design Docs'
 copyright = '2021, Siddhartha Pratap Singh'
 author = 'Siddhartha Pratap Singh'
 
 # The full version, including alpha/beta/rc tags
-release = 'V 1.0'
+release = 'V1.0\x1b[D\x1b[D\x1b[D\x1b[C\x1b[C\x1b[C'
 
 
 # -- General configuration ---------------------------------------------------
@@ -47,7 +64,12 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_options = {
+    'display_version': False,
+    'navigation_depth': 2,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
