@@ -1,4 +1,6 @@
 .vscode/*
 *.bat
 Makefile
-source/_build/*
+_build/
+_static/
+_templates/

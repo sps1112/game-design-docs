@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Game-Design Docs'
+project = 'Game Design Docs\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[-Design Docs'
 copyright = '2021, Siddhartha Pratap Singh'
 author = 'Siddhartha Pratap Singh'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0\x1b[D\x1b[D\x1b[DV1.0\x1b[D\x1b[D\x1b[D 1.0'
+release = 'V1.0\x1b[D\x1b[D\x1b[D\x1b[C\x1b[C\x1b[C'
 
 
 # -- General configuration ---------------------------------------------------
@@ -39,7 +39,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -47,7 +47,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
