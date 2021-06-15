@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Game Design Docs\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[D\x1b[\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[C\x1b[-Design Docs'
+project = 'Game-Design Docs'
 copyright = '2021, Siddhartha Pratap Singh'
 author = 'Siddhartha Pratap Singh'
 
 # The full version, including alpha/beta/rc tags
-release = 'V1.0\x1b[D\x1b[D\x1b[D\x1b[C\x1b[C\x1b[C'
+release = 'V 1.0'
 
 
 # -- General configuration ---------------------------------------------------
