@@ -3,18 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Game-Design Docs's documentation!
+
+Game Design Documentation!
 ============================================
+A Documentation website to hold various Game Design Resources. This website is divided in the following sections.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Intro to Game Design
 
+   intro_design/development_basics/index
+   intro_design/design_basics/index
 
+.. toctree::
+   :maxdepth: 1
+   :caption: General Game Design
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   general_design/design_philosophies/index.rst
+   general_design/game_feel/index.rst
+   
